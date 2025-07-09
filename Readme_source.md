@@ -78,7 +78,7 @@
 	```python
 	DATASET_PATH = '../../../datasets/COCO/coco_subset_20.txt'
 	```
-на
+	на
 
 	```python
  	DATASET_PATH = './datasets/COCO/coco_subset_20.txt'
