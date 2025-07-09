@@ -57,8 +57,7 @@
 	скачиваем в папку с виртуальным окружением и устанавливаем его с помощью команды
 
 	```bash
-	pip install rknn_toolkit2-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux
-2014_x86_64.whl
+	pip install rknn_toolkit2-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 	```
 
 ## Пункт 2 
@@ -80,7 +79,6 @@
 	DATASET_PATH = '../../../datasets/COCO/coco_subset_20.txt'
 	```
 на 
-
 	```python
 	DATASET_PATH = './datasets/COCO/coco_subset_20.txt'
 	```
