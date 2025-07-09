@@ -78,11 +78,11 @@
 	```python
 	DATASET_PATH = '../../../datasets/COCO/coco_subset_20.txt'
 	```
-на 
-	```python
-	DATASET_PATH = './datasets/COCO/coco_subset_20.txt'
-	```
+на
 
+	```python
+ 	DATASET_PATH = './datasets/COCO/coco_subset_20.txt'
+	```
 ## Пункт 3
 Теперь для выполнения конвертации необходимо с активированным виртуальным 
 окружением выполнить следующую команду
