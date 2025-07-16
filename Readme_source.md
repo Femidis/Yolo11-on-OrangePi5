@@ -75,7 +75,8 @@
 	Для этого полностью переносим папку `datasets` из прошлого репозитория 
 в виртуальное окружение.
 	```bash
-	wget https://github.com/airockchip/rknn_model_zoo/tree/main/datasets
+	wget https://github.com/Femidis/Yolo11-on-OrangePi5/releases/download/v1.0/datasets.tar.xz
+ 	tar -xvf datasets.tar.xz
  	```
  
 	Заходим в convert.py и меняем 4 строку которая 
