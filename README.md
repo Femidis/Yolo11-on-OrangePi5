@@ -17,9 +17,12 @@ airockchip/rknn_model_zoo/blob/main/examples/yolo11/python/).
 2. Создаём папку для виртуального окружения
 
 	```bash
-	скачать релиз
-	распаковать
-	cd ~/virtualenv
+ 	mkdir ~/rknn_converter
+ 	cd ~/rknn_converter
+	wget https://github.com/Femidis/Yolo11-on-OrangePi5/releases/download/v1.0/ws.tar.xz
+	tar -xvf ws.tar.xz
+ 	rm ws.tar.xz
+	cd ~/ws
 	```
 
 3. Активируем виртуальное окружение
