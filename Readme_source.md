@@ -42,12 +42,8 @@
 виртуального окружения и выполняем команду
 
 	```bash
-	
-	
-	
-	
-	
-	pip install -r requirements_cp312-2.3.2.txt
+	wget https://github.com/airockchip/rknn-toolkit2/blob/master/rknn-toolkit2/packages/x86_64/requirements_cp312-2.3.2.txt
+	pip install -r ./requirements_cp312-2.3.2.txt
 	```
 
 6. Устанавливаем модуль для расширения
@@ -57,7 +53,8 @@
 	скачиваем в папку с виртуальным окружением и устанавливаем его с помощью команды
 
 	```bash
-	pip install rknn_toolkit2-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+ 	wget https://github.com/airockchip/rknn-toolkit2/blob/master/rknn-toolkit2/packages/x86_64/rknn_toolkit2-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+	pip install ./rknn_toolkit2-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 	```
 
 ## Пункт 2 
@@ -68,11 +65,20 @@
 по пути `./examples/yolo11/python/` скачиваем в папку с виртуальным окружением 
 файл `convert.py`.
 
-2. Скачиваем дополнительные файлы из датасета для конвертации *(пока неясно зачем,
+	```bash
+	wget https://github.com/airockchip/rknn_model_zoo/blob/main/examples/yolo11/python/convert.py
+ 	```
+
+3. Скачиваем дополнительные файлы из датасета для конвертации *(пока неясно зачем,
 но нужно)*
 
 	Для этого полностью переносим папку `datasets` из прошлого репозитория 
-в виртуальное окружение. А также заходим в convert.py и меняем 4 строку которая 
+в виртуальное окружение.
+	```bash
+	wget https://github.com/airockchip/rknn_model_zoo/tree/main/datasets
+ 	```
+ 
+	Заходим в convert.py и меняем 4 строку которая 
 выглядит вот так:
 
 	```python
